@@ -1,0 +1,14 @@
+h1{
+    color: yellowgreen;
+    text-align: center;
+    text-decoration: underline rgb(238, 55, 55);
+}
+
+button{
+    background-color: rgb(255, 0, 0);
+}
+p {
+    color: black;
+    background-color: aqua;
+    font-size: 150%;
+}
