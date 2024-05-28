@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Form</title>
+</head>
+<body>
+    <h1>Bikin Form isian</h1>
+    <form action="/daftar" method="post">
+        <p>
+            <label for="name">Nama :</label>
+            <input type="text" placeholder="Nama" id="name" name="name">
+        </p>
+        <p>
+            <label for="email">Email :</label>
+            <input type="email" placeholder="Email" id="email" name="email">
+        </p>
+        <p>
+            <label for="password">Password :</label>
+            <input type="password" placeholder="Password" id="password" name="password">
+        </p>
+
+        <div>
+            <button type="submit">Kirim</button>
+        </div>
+    </form>
+    <hr>
+    <h1>Pesanan</h1>
+    <form action="/order">
+        <label for="">Baju</label>
+        <div>
+            <input type="radio" name="baju" id="" value="kemeja"><label for="">Kemeja</label>
+            <input type="radio" name="baju" id="" value="kaos"><label for="">Kaos</label>
+        </div>
+        <div>
+            <label for="ukuran">Ukuran</label>
+            <select name="ukuran" id="ukuran">
+                <option >-</option>
+                <option value="s">Small</option>
+                <option value="m">Medium</option>
+                <option value="l">Large</option>
+
+            </select>
+        </div>
+        <div>
+            <label for="term">Saya sudah memilih dengan benar</label>
+            <input type="checkbox" name="term" id="term" value="1">
+        </div>
+        <div>
+            <p>
+                <label for="notes">Catatan</label>
+            </p>
+            <textarea name="notes" id="notes" cols="20" rows="10"></textarea>
+        </div>
+        <button type="submit">Beli</button>
+    </form>
+    <hr>
+    <h1>Validasi</h1>
+    <form action="valid">
+        <input type="text" required minlength="3" maxlength="5">
+        <input type="number" name="number" id="number" min="2" max="3">
+        <button type="submit">Kirim</button>
+    </form>
+
+
+</body>
+</html>
