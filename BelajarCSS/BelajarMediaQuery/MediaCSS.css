@@ -1,0 +1,38 @@
+body{
+    font-family: 'Calibri',sans-serif;
+}
+
+h1 {
+    font-size: 6mm;
+    text-align: center;
+    color: green;
+
+}
+
+nav {
+    font-size: 1.5cm;
+
+}
+
+ul, li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 500px) {
+    h1 {
+        color: black;
+    }
+}
+
+
+
+@media screen and (min-width: 1000px) {
+    h1 {
+        color: grey;
+    }
+}
+
+
+
