@@ -1,0 +1,14 @@
+div {
+    width: 300px;
+    border: 9px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+div {
+    border-style: dotted;
+    border-width: 5px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    
+}
