@@ -183,16 +183,91 @@
 
 
 
-let tinggi = 8;
-if (tinggi > 5) {
-    var lebar = 10;
-}
-console.log(lebar);
+// let tinggi = 8;
+// if (tinggi > 5) {
+//     var lebar = 10;
+// }
+// console.log(lebar);
 
-for (let index = 0; index < 10; index++) {
-    var indexnumber = index;
-}
-console.log(indexnumber);
+// for (let index = 0; index < 10; index++) {
+//     var indexnumber = index;
+// }
+// console.log(indexnumber);
+
+
+
+// const perkalian = function (nilai) {
+//     return nilai * nilai
+// }
+
+// perkalian(10)
+
+
+
+// function myfunction(){
+//     console.log('Hello World');
+//     return 'Hello Mas';
+// }
+
+// const MyMath = {
+//     perkalian: function(x,y){
+//         return x*y;
+//     },
+// };
+
+
+
+
+
+// const saya = {
+//     nama:  'AIM',
+//     hobi: 'Main Gim',
+//     kenalan: function() {
+//         return `Hi, Saya ${this.nama}. Hobi Saya ${this.hobi}.`;
+//     },
+// };
+
+
+
+
+// function teriak(msg){
+//     try {
+//         console.log(msg.toUpperCase());
+//     } catch(error) {
+//         console.log(error);
+//         console.log("Masukan Data tipe string untuk menjalankan aplikasi ");
+//     }
+// }
+
+
+
+
+// const angka = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// angka.forEach(function(el) {
+//     if(el %2 === 0){
+//         console.log(el);
+//     }
+// });
+
+
+
+
+// const angka = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// const angkaDouble = angka.map(function(num){
+//     return num*2;
+// })
+
+
+
+
+// const perpangkatan = (x) =>{
+//     return x*x;
+// }
+
+// const random = () => {
+//     return Math.floor(Math.random()* 10);
+// };
+
 
 
 
