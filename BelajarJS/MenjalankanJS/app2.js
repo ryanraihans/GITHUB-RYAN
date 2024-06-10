@@ -271,15 +271,60 @@
 
 
 
+// console.log('Hallo')
+
+// setTimeout(()=> {
+//     console.log('Masih disini ?');
+// }, 5000);
+// console.log('Saya pergi ya')    
+
+// setInterval(()=>{
+//     console.log(Math.random());
+// }, 2500);
 
 
 
 
 
+// const angka = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// const angkaGanjil = angka.filter (n=> {
+//     return n < 5
+// });
+
+
+
+
+// const examScore = [80,76,90,100,89,98];
+// const isGraduate = examScore.every((score) => score >= 75);
 
 
 
 
 
+// const subtotal = [1500, 20000, 4000, 19000, 32000, 23500];
+// const total = subtotal.reduce((currenttotal, singglesubtotal) => {
+//     return currenttotal+singglesubtotal
+// })
 
 
+
+
+// const angka =[1,2,3,4,5,6,7,8,9];
+// const nama = ['alek', 'boim', 'elang', 'dimas'];
+// const campuran = [...angka, 0, 1];
+
+
+
+
+// const nama = ['alek', 'boim', 'elang', 'dimas', 'kipli'];
+// const juara = [juara1, juara2, juara3, ...peserta] = nama;
+
+
+
+
+const user = {
+    name : 'John',
+    email: 'john@gmail.com',
+};
+
+const {name:nama, email}= user;
