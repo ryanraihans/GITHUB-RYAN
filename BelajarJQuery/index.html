@@ -39,9 +39,14 @@
 
       var jogja = $('<li>Jogja</li>');
       var bali = $('<li>bali</li>');
-
+      var subjudul=$('<h2>Pilih Tujuan Anda</h2>');
+      var penutup=$('<h3>Terima Kasih</h3>');
       $('.lokasi').prepend(jogja);
       $('.lokasi').append(bali);
+      $('.lokasi').before(subjudul);
+      $('.lokasi').after(penutup);
+
+      
     });
     </script> 
 </body>
