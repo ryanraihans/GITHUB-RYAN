@@ -18,20 +18,22 @@
                 <h2 class="px-3">Player 1</h2>
                 <p id="p1-display">0</p>
                 <div class="score-btns">
-                    <button class="btn btn-primary" id="p1-button">+1</button>
+                    <button class="btn btn-primary score-button" id="p1-button-minus">-1</button>
+                    <button class="btn btn-primary score-button" id="p1-button">+1</button>
                 </div>
             </div>
             <div class="points col col-auto py-3 d-flex flex-column align-items-center">
                 <h2 class="px-3">Player 2</h2>
                 <p id="p2-display">0</p>
                 <div  class="score-btns">
-                    <button  class="btn btn-primary"  id="p2-button">+1</button>
+                    <button  class="btn btn-primary score-button"  id="p2-button-minus">-1</button>
+                    <button  class="btn btn-primary score-button"  id="p2-button">+1</button>
                 </div>
             </div>
         </div>
         <div class="d-grid gap-2 col-6 col-md-4 mx-auto pb-5">
             <select name="" id="winpoint" class="form-select">
-                <option value="5">5</option>
+                <option value="" disable hidden selected>Pilih Skor</option>
                 <option value="10">10</option>
                 <option value="15">15</option>
             </select>
